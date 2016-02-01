@@ -1,4 +1,4 @@
-package com.designpatterns.chapter1;
+package com.designpatterns.chapter1.ducks;
 
 import com.designpatterns.chapter1.fly.FlyWithWings;
 import com.designpatterns.chapter1.quack.Quack;
