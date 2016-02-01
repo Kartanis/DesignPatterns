@@ -9,8 +9,8 @@ import com.designpatterns.chapter1.quack.Quack;
 public class MallardDuck extends Duck {
 
     public MallardDuck() {
-        quackBehaviour = new Quack();
-        flyBehaviour = new FlyWithWings();
+        setQuackBehaviour(new Quack());
+        setFlyBehaviour(new FlyWithWings());
     }
 
     @Override
